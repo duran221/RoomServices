@@ -10,6 +10,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using RoomServices.Models;
 
+
+//Probando repositorio GitHub: Leonardo González Gutiérrez
 namespace RoomServices.Controllers
 {
     [Authorize]
@@ -21,6 +23,7 @@ namespace RoomServices.Controllers
         public AccountController()
         {
         }
+
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
